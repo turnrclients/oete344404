@@ -1,30 +1,25 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Certified financial advisors offering investment planning, wealth management, retirement planning, and financial guidance.">
-    <meta name="keywords" content="financial advisor, investment, wealth management, financial planning">
-    <title>Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/middle_sections.css">
-    <link rel="stylesheet" href="assets/css/anim-effects.css">
-    <link rel="stylesheet" href="assets/css/components/header-44.css">
-    <link rel="stylesheet" href="assets/css/components/footer-12.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/plugins.css">
-    <link rel="stylesheet" href="assets/css/custom-Imports.css">
-    <link rel="stylesheet" href="assets/css/resonsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <style>
+<base href=""/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Certified financial advisors offering investment planning, wealth management, retirement planning, and financial guidance." name="description"/>
+<meta content="financial advisor, investment, wealth management, financial planning" name="keywords"/>
+<title>Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+<link href="assets/css/style.css" rel="stylesheet"/>
+<link href="assets/css/middle_sections.css" rel="stylesheet"/>
+<link href="assets/css/anim-effects.css" rel="stylesheet"/>
+<link href="assets/css/components/header-44.css" rel="stylesheet"/>
+<link href="assets/css/components/footer-12.css" rel="stylesheet"/>
+<link href="assets/css/bootstrap.css" rel="stylesheet"/>
+<link href="assets/css/plugins.css" rel="stylesheet"/>
+<link href="assets/css/custom-Imports.css" rel="stylesheet"/>
+<link href="assets/css/resonsive.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet"/>
+<style>
         :root {
             --site-font: 'Montserrat', sans-serif;
         }
@@ -35,31 +30,73 @@
             font-family: var(--site-font) !important;
         }
     </style>
-</head>
+<style id="aiModalSpinnerStyles">
+        .ai-modal-content {
+            position: relative;
+        }
 
+        /* Overlay blocks everything */
+        .ai-modal-spinner {
+            position: absolute;
+            inset: 0;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            z-index: 20;
+            backdrop-filter: blur(1.5px);
+            pointer-events: auto; /* blocks modal */
+        }
+
+        /* Spinner itself should NOT intercept clicks */
+        .ai-modal-spinner * {
+            pointer-events: none;
+        }
+
+        /* Close button MUST be above overlay */
+        .ai-close {
+            align-self: flex-start;
+            margin-right: auto; /* push left */
+            margin-left: 0;
+            z-index: 30;
+        }
+
+
+        /* Spinner styling */
+        .ai-spinner {
+            width: 42px;
+            height: 42px;
+            border: 4px solid rgba(0,0,0,0.25);
+            border-top-color: #000;
+            border-radius: 50%;
+            animation: aiSpin 0.9s linear infinite;
+        }
+
+        @keyframes aiSpin {
+            to { transform: rotate(360deg); }
+        }
+
+    </style></head>
 <body class="theme-1">
-    <div id="wrapper">
-        <div id="header"></div>
-        <div id="mainPageContent">
-
-            <section class="home-81 section-wrapper">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <!-- Left Image -->
-                        <div class="col-md-6">
-                            <div class="home-81 image-box anim-cube-rotate">
-                                <img src="assets/images/home-81-1.jpeg" alt="Interior Design Space"
-                                    class="img-responsive">
-                            </div>
-                        </div>
-
-                        <!-- Right Content -->
-                        <div class="col-md-6 home-81 content-box anim-depth-pop">
-                            <h2>
-                                Elevate Your <span>Space</span> with Timeless<br>
-                                Interior Design.
-                            </h2>
-                            <p>
+<div class="" id="wrapper" style="pointer-events: auto;">
+<div class="" id="header"></div>
+<div class="" id="mainPageContent">
+<section class="home-81 section-wrapper" id="section-qv42taox66i">
+<div class="container">
+<div class="row align-items-center">
+<!-- Left Image -->
+<div class="col-md-6">
+<div class="home-81 image-box anim-cube-rotate in-view">
+<img alt="Interior Design Space" class="img-responsive updateImg" data-original-src="assets/images/home-81-1.jpeg" src="assets/images/home-81-1.jpeg"/>
+</div>
+</div>
+<!-- Right Content -->
+<div class="col-md-6 home-81 content-box anim-depth-pop in-view">
+<h2 class="">
+                                Elevate Your <span class="">Space</span> with Timeless<br class=""/>
+                                Interior Design</h2>
+<p class="">
                                 We create bespoke interiors that blend aesthetics with functionality. Our design
                                 philosophy revolves around
                                 understanding your vision and transforming your home or workspace into a harmonious
@@ -67,116 +104,92 @@
                                 From concept to execution, we ensure every detail reflects elegance, comfort, and
                                 personality.
                             </p>
-                            <button class="home-81 btn-red">Explore Designs</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-            <section class="section-wrapper home-80">
-                <div class="container text-left">
-                    <span class="home-80-subtitle">SHOWCASE</span>
-                    <h2 class="home-80-title anim-flip3d-left">FEATURED WORK</h2>
-
-                    <div class="home-80-carousel owl-carousel anim-fade-in">
-                        <div class="home-80-item">
-                            <img src="assets/images/home-80-1.jpg" alt="Exhibition Center">
-                            <div class="home-80-item-content">
-                                <h4>Exhibition Center</h4>
-                            </div>
-                        </div>
-
-                        <div class="home-80-item">
-                            <img src="assets/images/home-80-2.jpg" alt="Hall Room">
-                            <div class="home-80-item-content">
-                                <h4>Hall Room</h4>
-                            </div>
-                        </div>
-
-                        <div class="home-80-item">
-                            <img src="assets/images/home-80-3.jpg" alt="Residential Block">
-                            <div class="home-80-item-content">
-                                <h4>Residential Block</h4>
-                            </div>
-                        </div>
-
-                        <div class="home-80-item">
-                            <img src="assets/images/home-80-4.jpg" alt="Commercial Room">
-                            <div class="home-80-item-content">
-                                <h4>Commercial Room</h4>
-                            </div>
-                        </div>
-
-                        <div class="home-80-item">
-                            <img src="assets/images/home-80-5.jpg" alt="Office Lounge">
-                            <div class="home-80-item-content">
-                                <h4>Office Lounge</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
-
-            <section class="section-wrapper home-82">
-                <div class="container">
-                    <div class="row home-82-row">
-
-                        <!-- Card 1 -->
-                        <div class="col-sm-4 home-82-card expanded anim-bounce-in"
-                            style="background-image: url('assets/images/home-82-1.JPG');">
-                            <div class="home-82-content">
-                                <h3 class="home-82-title">Residential</h3>
-                                <p class="home-82-text">
+<button class="home-81 btn-red">Explore Designs</button>
+</div>
+</div>
+</div>
+</section>
+<section class="section-wrapper home-80" id="section-25it4m3n95n">
+<div class="container text-left">
+<span class="home-80-subtitle">SHOWCASE</span>
+<h2 class="home-80-title anim-flip3d-left in-view">FEATURED WORK</h2>
+<div class="home-80-carousel owl-carousel anim-fade-in">
+<div class="home-80-item">
+<img alt="Exhibition Center" class="updateImg" data-original-src="assets/images/home-80-1.jpg" src="assets/images/home-80-1.jpg"/>
+<div class="home-80-item-content">
+<h4 class="">Exhibition Center</h4>
+</div>
+</div>
+<div class="home-80-item">
+<img alt="Hall Room" class="updateImg" data-original-src="assets/images/home-80-2.jpg" src="assets/images/home-80-2.jpg"/>
+<div class="home-80-item-content">
+<h4 class="">Hall Room</h4>
+</div>
+</div>
+<div class="home-80-item">
+<img alt="Residential Block" class="updateImg" data-original-src="assets/images/home-80-3.jpg" src="assets/images/home-80-3.jpg"/>
+<div class="home-80-item-content">
+<h4 class="">Residential Block</h4>
+</div>
+</div>
+<div class="home-80-item">
+<img alt="Commercial Room" class="updateImg" data-original-src="assets/images/home-80-4.jpg" src="assets/images/home-80-4.jpg"/>
+<div class="home-80-item-content">
+<h4 class="">Commercial Room</h4>
+</div>
+</div>
+<div class="home-80-item">
+<img alt="Office Lounge" class="updateImg" data-original-src="assets/images/home-80-5.jpg" src="assets/images/home-80-5.jpg"/>
+<div class="home-80-item-content">
+<h4 class="">Office Lounge</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-wrapper home-82" id="section-glvc2huv76r">
+<div class="container">
+<div class="row home-82-row">
+<!-- Card 1 -->
+<div class="col-sm-4 home-82-card expanded anim-bounce-in updateImg" data-original-src="assets/images/home-82-1.JPG" style='background: url("assets/images/home-82-1.JPG");'>
+<div class="home-82-content">
+<h3 class="home-82-title">Residential</h3>
+<p class="home-82-text">
                                     Elegant and functional home interiors crafted to match your lifestyle. We design
                                     spaces that
                                     bring comfort, warmth, and a personal touch to every corner.
                                 </p>
-                                <a href="#" class="home-82-btn">View Projects</a>
-                            </div>
-                        </div>
-
-                        <!-- Card 2 -->
-                        <div class="col-sm-4 home-82-card anim-bounce-in"
-                            style="background-image: url('assets/images/home-82-2.jpg');">
-                            <div class="home-82-content">
-                                <h3 class="home-82-title">Commercial</h3>
-                                <p class="home-82-text">
-                                    Modern and productive spaces for offices, retail stores, corporate lounges &
+<a class="home-82-btn" href="#" style="cursor: pointer;">View Projects</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="col-sm-4 home-82-card anim-bounce-in updateImg" data-original-src="assets/images/home-82-2.jpg" style='background: url("assets/images/home-82-2.jpg");'>
+<div class="home-82-content">
+<h3 class="home-82-title">Commercial</h3>
+<p class="home-82-text">
+                                    Modern and productive spaces for offices, retail stores, corporate lounges &amp;
                                     hospitality
                                     environments designed to reflect your brand identity.
                                 </p>
-                                <a href="#" class="home-82-btn">Explore Designs</a>
-                            </div>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div class="col-sm-4 home-82-card anim-bounce-in"
-                            style="background-image: url('assets/images/home-82-3.jpg');">
-                            <div class="home-82-content">
-                                <h3 class="home-82-title">Modular</h3>
-                                <p class="home-82-text">
+<a class="home-82-btn" href="#" style="cursor: pointer;">Explore Designs</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="col-sm-4 home-82-card anim-bounce-in updateImg" data-original-src="assets/images/home-82-3.jpg" style='background: url("assets/images/home-82-3.jpg");'>
+<div class="home-82-content">
+<h3 class="home-82-title">Modular</h3>
+<p class="home-82-text">
                                     Custom-built modular kitchens, wardrobes, and furniture solutions built for
                                     aesthetics,
                                     durability, and intelligent space utilization.
                                 </p>
-                                <a href="#" class="home-82-btn">Learn More</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-
-
-            <script>
+<a class="home-82-btn" href="#" style="cursor: pointer;">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script class="">
                 document.querySelectorAll('.home-82-card').forEach(card => {
                     card.addEventListener('mouseenter', () => {
                         document.querySelectorAll('.home-82-card').forEach(c => c.classList.remove('expanded'));
@@ -184,104 +197,93 @@
                     });
                 });
             </script>
-
-
-            <section class="section-wrapper about-47">
-                <div class="container">
-                    <div class="row about-47-row">
-
-                        <div class="col-md-6 about-47-gallery text-center ">
-                            <div class="about-47-img-wrap anim-slide-right">
-                                <img src="assets/images/about-47-1.JPG" alt="Interior Design Living Room"
-                                    class="about-47-img">
-                            </div>
-                            <div class="about-47-img-wrap anim-slide-right">
-                                <img src="assets/images/about-47-2.JPG" alt="Minimalist Bedroom" class="about-47-img">
-                            </div>
-                            <div class="about-47-img-wrap anim-slide-right">
-                                <img src="assets/images/about-47-3.JPG" alt="Modern Workspace" class="about-47-img">
-                            </div>
-                        </div>
-                        <div class="col-md-6 about-47-text anim-slide-left">
-                            <p class="about-47-subtitle">About the Designer</p>
-                            <h2 class="about-47-title">
-                                Crafting Spaces That <br> Inspire Living
+<section class="section-wrapper about-47" id="section-nw8wlf2yd1">
+<div class="container">
+<div class="row about-47-row">
+<div class="col-md-6 about-47-gallery text-center">
+<div class="about-47-img-wrap anim-slide-right">
+<img alt="Interior Design Living Room" class="about-47-img updateImg" data-original-src="assets/images/about-47-1.JPG" src="assets/images/about-47-1.JPG"/>
+</div>
+<div class="about-47-img-wrap anim-slide-right">
+<img alt="Minimalist Bedroom" class="about-47-img updateImg" data-original-src="assets/images/about-47-2.JPG" src="assets/images/about-47-2.JPG"/>
+</div>
+<div class="about-47-img-wrap anim-slide-right">
+<img alt="Modern Workspace" class="about-47-img updateImg" data-original-src="assets/images/about-47-3.JPG" src="assets/images/about-47-3.JPG"/>
+</div>
+</div>
+<div class="col-md-6 about-47-text anim-slide-left">
+<p class="about-47-subtitle">About the Designer</p>
+<h2 class="about-47-title">
+                                Crafting Spaces That <br class=""/> Inspire Living
                             </h2>
-                            <p class="about-47-desc">
+<p class="about-47-desc">
                                 I am an interior designer passionate about transforming spaces into functional,
                                 meaningful, and visually elevated environments. Every space I design tells a story
                                 — your story — through materials, textures, light, and thoughtful detailing.
                             </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-            <section class="section-wrapper blog-17">
-                <div class="container blog-17-container">
-                    <div class="text-left">
-                        <a href="#" class="blog-17-read-articles text-uppercase">Read Articles</a>
-                        <h2 class="blog-17-title">Latest Post</h2>
-                    </div>
-
-                    <div class="row blog-17-row">
-                        <!-- Post 1 -->
-                        <div class="col-sm-4 blog-17-post anim-slide-up">
-                            <div class="blog-17-post-wrapper">
-                                <img src="assets/images/blog-17-1.jpg" class="img-responsive" alt="Sustainable Home">
-                                <div class="blog-17-meta">Architecture / August 31, 2025</div>
-                                <h4 class="blog-17-post-title">How to Design a Sustainable Home</h4>
-                                <p class="blog-17-author">by Jane Collins</p>
-                            </div>
-                        </div>
-
-                        <!-- Post 2 -->
-                        <div class="col-sm-4 blog-17-post anim-slide-up">
-                            <div class="blog-17-post-wrapper">
-                                <img src="assets/images/blog-17-2.jpg" class="img-responsive" alt="Interior Design">
-                                <div class="blog-17-meta">Interior Design / August 15, 2025</div>
-                                <h4 class="blog-17-post-title">The Importance of Lighting Design in Interior Spaces</h4>
-                                <p class="blog-17-author">by Paul Roberts</p>
-                            </div>
-                        </div>
-
-                        <!-- Post 3 -->
-                        <div class="col-sm-4 blog-17-post anim-slide-up">
-                            <div class="blog-17-post-wrapper">
-                                <img src="assets/images/blog-17-3.jpg" class="img-responsive" alt="Home Office">
-                                <div class="blog-17-meta">Architecture / August 8, 2025</div>
-                                <h4 class="blog-17-post-title">Creating a Functional Home Office Space</h4>
-                                <p class="blog-17-author">by Sarah Gomez</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div id="footer"></div>
-    </div>
-    <script src="assets/js/middle-section.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/init.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/jquery.main.js"></script>
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/Observer.min.js"></script>
-    <script src="assets/js/gsap.effects.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="assets/js/common_js/send_email.js"></script>
-    <script src="assets/js/common_js/html_image_editor.js"></script>
-    <script src="assets/js/common_js/windows_postmessage.js"></script>
-    <script>
+</div>
+</div>
+</div>
+</section>
+<section class="section-wrapper blog-17" id="section-jwupwyd837i">
+<div class="container blog-17-container">
+<div class="text-left">
+<a class="blog-17-read-articles text-uppercase" href="#" style="cursor: pointer;">Read Articles</a>
+<h2 class="blog-17-title">Latest Post</h2>
+</div>
+<div class="row blog-17-row">
+<!-- Post 1 -->
+<div class="col-sm-4 blog-17-post anim-slide-up">
+<div class="blog-17-post-wrapper">
+<img alt="Sustainable Home" class="img-responsive updateImg" data-original-src="assets/images/blog-17-1.jpg" src="assets/images/blog-17-1.jpg"/>
+<div class="blog-17-meta">Architecture / August 31, 2025</div>
+<h4 class="blog-17-post-title">How to Design a Sustainable Home</h4>
+<p class="blog-17-author">by Jane Collins</p>
+</div>
+</div>
+<!-- Post 2 -->
+<div class="col-sm-4 blog-17-post anim-slide-up">
+<div class="blog-17-post-wrapper">
+<img alt="Interior Design" class="img-responsive updateImg" data-original-src="assets/images/blog-17-2.jpg" src="assets/images/blog-17-2.jpg"/>
+<div class="blog-17-meta">Interior Design / August 15, 2025</div>
+<h4 class="blog-17-post-title">The Importance of Lighting Design in Interior Spaces</h4>
+<p class="blog-17-author">by Paul Roberts</p>
+</div>
+</div>
+<!-- Post 3 -->
+<div class="col-sm-4 blog-17-post anim-slide-up">
+<div class="blog-17-post-wrapper">
+<img alt="Home Office" class="img-responsive updateImg" data-original-src="assets/images/blog-17-3.jpg" src="assets/images/blog-17-3.jpg"/>
+<div class="blog-17-meta">Architecture / August 8, 2025</div>
+<h4 class="blog-17-post-title">Creating a Functional Home Office Space</h4>
+<p class="blog-17-author">by Sarah Gomez</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="" id="footer"></div>
+</div>
+<script src="assets/js/middle-section.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/init.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/jquery.main.js"></script>
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/Observer.min.js"></script>
+<script src="assets/js/gsap.effects.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="assets/js/common_js/send_email.js"></script>
+<script src="assets/js/common_js/html_image_editor.js"></script>
+<script src="assets/js/common_js/windows_postmessage.js"></script>
+<script>
         var fileName = document.title || "index";
 
         $(document).ready(function () {
-            loadHeaderFooter("header", "client-assets/ien26297/ien26297/header.html");
-            loadHeaderFooter("footer", "client-assets/ien26297/ien26297/footer.html");
+            // loadHeaderFooter("header", "client-assets/ien26297/ien26297/header.html");
+            // loadHeaderFooter("footer", "client-assets/ien26297/ien26297/footer.html");
 
             loadHeaderFooter("header", "header.html");
             loadHeaderFooter("footer", "footer.html");
@@ -309,7 +311,7 @@
             });
         }
     </script>
-    <script>
+<script>
         $(document).ready(function () {
 
             // Remove accidental pre-initialization
@@ -332,8 +334,4 @@
         });
 
     </script>
-
-
 </body>
-
-</html>
