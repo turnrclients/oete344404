@@ -1,6 +1,6 @@
 window.addEventListener("message", (event) => {
         console.log("Message event:", event);
-        if (event.origin !== "http://127.0.0.1:8000") return;
+        if (event.origin !== "https://dev.turnr.co.in") return;
         localStorage.setItem("featureEnabled", event.data.message);
         localStorage.setItem("feature_key", event.data.key);
         localStorage.setItem("owner", event.data.owner);
