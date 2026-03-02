@@ -609,9 +609,9 @@ function createButtons() {
     buttonContainer.style.marginBottom = '30px'; // Add some space below
 
     // Create the buttons
-    const enableEditingBtn = createButton('Enable Text Editing', 'enableEditingBtn', enableTextEditing);
-    const saveChangesBtn = createButton('Save and Push Changes', 'saveChangesBtn', saveAndPushChanges);
-    const updateHTMLBtn = createButton('Update HTML with Changes', 'updateHTMLBtn', updateOriginalHTMLWithTextChanges);
+    const enableEditingBtn = createButton('Enable Edit Mode', 'enableEditingBtn', enableTextEditing);
+    const saveChangesBtn = createButton('Save Changes', 'saveChangesBtn', saveAndPushChanges);
+    const updateHTMLBtn = createButton('Publish', 'updateHTMLBtn', updateOriginalHTMLWithTextChanges);
 
     // Append the buttons to the container
     buttonContainer.appendChild(enableEditingBtn);
@@ -637,6 +637,9 @@ function createButton(text, id, clickHandler) {
     button.style.borderRadius = '4px';
     button.style.backgroundColor = '#4CAF50';
     button.style.color = 'white';
+    button.style.display = 'inline-block';
+    button.style.position = 'relative';
+    button.style.pointerEvents = 'auto';
     button.style.transition = 'background-color 0.3s ease';
 
     // Add hover and focus styles
