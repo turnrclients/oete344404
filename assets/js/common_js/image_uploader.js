@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
 // ==============Custom alert========================
 function injectCustomAlertCSS() {
     if (document.getElementById('custom-alert-style')) return;
@@ -217,9 +216,12 @@ function showCustomAlertBox(type = 'error', message = 'Something went wrong', on
     async function uploadImgData() {
         const fileInput = $("#image-upload")[0];
         const file = fileInput.files[0];
-        if (!file) return
-        showCustomAlertBox('error', 'No file selected!');
-        console.log("No file selected!");
+        if (!file) {
+           showCustomAlertBox('error', 'No file selected!');
+           console.log("No file selected!");
+            return
+        }
+           
 
         const imgName = $(".formFieldFileName").val();
         const element = $("#image-upload").data("imageElement");
